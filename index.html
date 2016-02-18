@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>    
+    <script type="text/JavaScript" src="tetris.js"></script>
+    <style type="text/css">
+        div.pixel { border: 1px solid #999; background-color: #fafafa; position: absolute; width: 20px; height: 20px; }
+        div.pixel2 { border: 1px solid #999; background-color: #eeeeee; position: absolute; width: 20px; height: 20px; }
+        div.I_Shape { background-color: #28B5B0; } 
+        div.J_Shape { background-color: #2166B5; }
+        div.L_Shape { background-color: #B59C38; } 
+        div.O_Shape { background-color: #EBE300; } 
+        div.S_Shape { background-color: #37B823; } 
+        div.T_Shape { background-color: #762AB8; } 
+        div.Z_Shape { background-color: #B81F1F; } 
+    </style>
+  </head>
+  <body>
+      <h1>Tetris</h1>
+      <b>Level</b> <div id="level">1</div><br/>
+      <b>Lines</b> <div id="lines">0</div><br/>
+      <b>Points</b> <div id="points">0</div><br/>
+<!--      <b>Delay</b> <div id="delay">0</div><br/>-->
+      <div id="field" style="font-family: Courier New; font-weight: bold;"></div>
+      <pre id="log"></pre>
+  </body>
+</html>
